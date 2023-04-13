@@ -1,18 +1,23 @@
 {
-  "name": "WADIO",
+  "name": "project_wadio1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test" 
-    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctouris/project_wadio1.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctouris/project_wadio1/issues"
+  },
+  "homepage": "https://github.com/ctouris/project_wadio1#readme",
   "devDependencies": {
-    "@babel/core": "^7.20.7",
+    "@babel/core": "^7.20.4",
     "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.18.9",
     "@wdio/allure-reporter": "^7.26.0",
@@ -22,13 +27,9 @@
     "@wdio/spec-reporter": "^7.26.0",
     "chai": "^4.3.7",
     "chai-webdriverio": "^1.0.0",
-    "node-fetch": "^3.3.1",
     "webdriverio": "^7.27.0"
   },
   "dependencies": {
     "@wdio/cli": "^7.27.0"
   }
-  "scripts": {
-    "test": "wdio ./wdio.conf.js"
-  },
 }
