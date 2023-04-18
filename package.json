@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio ./wdio.conf.js"
   },
   "repository": {
-    "type": "git",
+    "type": "commonjs",
     "url": "git+https://github.com/ctouris/project_wadio1.git"
   },
   "author": "",
