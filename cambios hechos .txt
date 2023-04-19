@@ -36,9 +36,33 @@ describe('OpenCart', () => {
     await barraDeBusqueda.setValue('apple cinema');
     await barraDeBusqueda.keys('Enter');
     await browser.pause(5000);
+    await selectByVisibleText('Apple Cinema 30');
 
   });
 });'
+
+seleccionar apple cinema con click
+
+<a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=42&amp;search=apple+cinema">Apple Cinema 30"</a>
+
+
+select color blue click
+
+<select name="option[217]" id="input-option217" class="form-control">
+                <option value=""> --- Please Select --- </option>
+                                <option value="4">Red
+                                (+$4.80)
+                 </option>
+                                <option value="3">Blue
+                                (+$3.60)
+                 </option>
+                                <option value="1">Green
+                                (+$1.20)
+                 </option>
+                                <option value="2">Yellow
+                                (+$2.40)
+                 </option>
+                              </select>
 
  const color = await $('#logo');
  await logo.click();

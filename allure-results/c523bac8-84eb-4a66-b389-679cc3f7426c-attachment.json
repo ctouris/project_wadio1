@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[contains(text(),\"product_id=42\")]"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//href[contains(., \"\"product_id=42\"\")]"
+}

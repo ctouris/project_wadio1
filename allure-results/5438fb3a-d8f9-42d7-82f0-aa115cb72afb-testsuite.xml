@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681915791793' stop='1681915800301'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1681915791793' status='broken' stop='1681915800300'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.121'/>
+            </parameters>
+            <steps>
+                <step start='1681915791831' status='passed' stop='1681915794546'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8113927c-e2da-4866-a34e-00a259aeae82-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681915794547' status='passed' stop='1681915794569'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eb0f1681-ac38-4c70-8bd2-9fb9864c2ce9-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='557d0359-8e9a-4af0-8b3f-f7402867b2f8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681915794575' status='passed' stop='1681915794609'>
+                    <name>POST /session/:sessionId/element/ece5c16c-6f29-495c-80e2-d976e68f9a9e/clear</name>
+                    <title>POST /session/:sessionId/element/ece5c16c-6f29-495c-80e2-d976e68f9a9e/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681915794611' status='passed' stop='1681915794662'>
+                    <name>POST /session/:sessionId/element/ece5c16c-6f29-495c-80e2-d976e68f9a9e/value</name>
+                    <title>POST /session/:sessionId/element/ece5c16c-6f29-495c-80e2-d976e68f9a9e/value</title>
+                    <attachments>
+                        <attachment title='Request' source='11bed32b-71ad-4784-bbc2-4bcf5e10c52f-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681915794662' status='passed' stop='1681915795193'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='b9173050-bc57-4a45-9503-5844ec868f3f-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681915795193' status='passed' stop='1681915795208'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681915800216' status='passed' stop='1681915800299'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5165b10d-168f-4ec0-9a46-c4d9405bb75c-attachment.png' type='image/png' size='68267'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>a is not defined</message>
+                <stack-trace>ReferenceError: a is not defined
+                    at Context.&lt;anonymous> (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\tests\/opencart.test.js:8:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

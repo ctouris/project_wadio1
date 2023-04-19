@@ -5,5 +5,8 @@ describe('Carrito', () => {
     await barraDeBusqueda.setValue('apple cinema');
     await barraDeBusqueda.keys('Enter');
     await browser.pause(5000);
+    const pag = await $('//button[text()="Apple Cinema 30""]');
+    await pag.click();
+    
   });
 });

@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681922263563' stop='1681922271871'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1681922263564' status='broken' stop='1681922271870'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.121'/>
+            </parameters>
+            <steps>
+                <step start='1681922263599' status='passed' stop='1681922266047'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='76e63bec-0da2-4d65-98c4-07760b800813-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681922266048' status='passed' stop='1681922266070'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7392bfca-e1e1-4f50-a91e-17fdf0fd2c9b-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='47eb8c76-fbc2-46bf-86bd-b9f341535555-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681922266078' status='passed' stop='1681922266111'>
+                    <name>POST /session/:sessionId/element/0558859f-286c-4e8c-9798-672931b75cde/clear</name>
+                    <title>POST /session/:sessionId/element/0558859f-286c-4e8c-9798-672931b75cde/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681922266114' status='passed' stop='1681922266168'>
+                    <name>POST /session/:sessionId/element/0558859f-286c-4e8c-9798-672931b75cde/value</name>
+                    <title>POST /session/:sessionId/element/0558859f-286c-4e8c-9798-672931b75cde/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e38ab0fb-26a4-4cd6-bc0c-e35c1a9cd279-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681922266168' status='passed' stop='1681922266672'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='68eda241-17e3-4cba-82dd-a23bad2b0f83-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681922266672' status='passed' stop='1681922266689'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681922271699' status='broken' stop='1681922271870'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='947939c1-2750-4532-884c-04dd6b9f66dc-attachment.json' type='application/json' size='75'/>
+                    </attachments>
+                    <steps>
+                        <step start='1681922271774' status='passed' stop='1681922271869'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='80b727ae-7632-454c-9b33-2a8d358b49e4-attachment.png' type='image/png' size='68475'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "//button[text()="Apple Cinema 30""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "//button[text()="Apple Cinema 30""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at Browser.wrapCommandFn (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (D:\Users\Cecilia\Documents\Pasantía UpCamp\project_wadio1\tests\/opencart.test.js:8:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
